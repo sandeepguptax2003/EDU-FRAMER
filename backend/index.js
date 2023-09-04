@@ -31,6 +31,7 @@ app.get("/", async (req, res) => {
   }
 });
 
+
 app.use("", studentRouter);
 app.use("", courseRouter);
 app.use("", departmentRouter);
